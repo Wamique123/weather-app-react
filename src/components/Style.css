@@ -1,0 +1,68 @@
+body{
+    /* background-image: linear-gradient(to right,red,black); */
+   /* background-image: url(logu.gif);?  */
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: rgb(198, 248, 248);
+    
+}
+
+
+
+.container{
+    width: 20vw;
+    height: 60vh;
+    /* background-color: #a5bbdd; */
+    margin-top: 45%;
+    background-image: url(logu.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px -5px rgba(17, 17, 17, 0.5);
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+   
+}
+
+.box{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+
+}
+
+.inputData{
+    margin-top: 15px;
+    border-radius: 5px;
+    
+}
+.inputData input{
+    padding: 7px;
+    border-radius: 13px;
+    background: transparent;
+    color: white;
+    border-color: black;
+    margin: 0 auto;
+    display: inline-block;
+    width: 150px;
+}
+
+h2{
+    font-size: 25px;
+font-weight: normal;
+}
+.info{
+    margin-top: 35%;
+}
+.info h3{
+    font-size: 16px;
+    font-weight: normal;
+}
+.info h1{
+    font-size: 24px;
+font-weight: normal;
+}

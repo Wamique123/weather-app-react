@@ -1,0 +1,47 @@
+
+// 20221008152122
+// https://api.openweathermap.org/data/2.5/weather?q=london&appid=b9691490c22dc07cbd369ebb0515841e
+
+{
+    "coord": {
+      "lon": -0.1257,
+      "lat": 51.5085
+    },
+    "weather": [
+      {
+        "id": 801,
+        "main": "Clouds",
+        "description": "few clouds",
+        "icon": "02n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 282.39,
+      "feels_like": 281.41,
+      "temp_min": 279.14,
+      "temp_max": 284.87,
+      "pressure": 1024,
+      "humidity": 82
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 2.06,
+      "deg": 210
+    },
+    "clouds": {
+      "all": 13
+    },
+    "dt": 1665267179,
+    "sys": {
+      "type": 2,
+      "id": 2075535,
+      "country": "GB",
+      "sunrise": 1665209533,
+      "sunset": 1665249821
+    },
+    "timezone": 3600,
+    "id": 2643743,
+    "name": "London",
+    "cod": 200
+  }
